@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head >
+    <meta charset='utf-8'>
+    <title>Payment Confirmation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Confirmation de Payment</h1>
+        <p>Cher <span th:text="${customerName}"></span></p>
+        <p>Votre  montant <span th:text="${amount}"> a été envoyer avec succes</span></p>
+        <p>Le reference de votre commande est: <span th:text="${orderReference}"></span></p>
+
+        <div class="footer">
+            <p>This is an automated message. Please do not reply to this email.</p>
+            <p>&copy; 2024 ibeCoding. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

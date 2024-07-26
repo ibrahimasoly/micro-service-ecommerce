@@ -1,0 +1,8 @@
+# Configuration de MongoDB
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://ibecoul90:ibecoul90@localhost:27017/customer?authSource=admin
